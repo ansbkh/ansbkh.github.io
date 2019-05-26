@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inscription</title>
+</head>
+<body>
+<h1 style="text-align: center;font-family: tahoma; color: blue;font-size: 500%">Inscription</h1>
+<form method="POST" action="register.php">
+	<br><form method="POST" action="register.php"> Numero d inscription:<input type="number" name="nins" required=""><br>
+<br>	NOM:<input type="text" name="Nom" required=""><br>
+<br>Prenom:<input type="text" name="Prenom"><br>
+<br>Date de naissance:<input type="date" name="dnais"><br>
+<br>Sexe:<input type="radio" name="Sexe" value="h">Homme<input type="radio" name="Sexe" value="f">Femme<br>
+<br>Adresse<textarea name="Adresse" cols="20" rows="4"></textarea><br>
+<br> email <input type="email" name="mail"><br>
+<<br> villes<select name="ville">
+	<option value="0">Pas de ville</option>
+	<option value="1">Gabes</option>
+	<option value="2">Sousse</option>
+	<option value="3">Tunis</option>
+	<option value="4">Gafsa</option>
+</select>
+<input type="submit" value="enregistrer">
+</body>
+</html>
